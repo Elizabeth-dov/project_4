@@ -1,0 +1,283 @@
+
+@media (max-width: 1080px){
+    .container{
+        max-width: 900px;
+    }
+    .save{
+        &__content{
+            gap: 10px;
+        }
+        &__content-2-block{
+            width: 383px;
+        }
+        &__content-3-block{
+            h1 {
+                width: 383px;
+            }
+        } 
+    }
+    .pay{
+    &__content-tittle {
+        font-size: 45px;
+        max-width: 677px;
+    }
+}
+}
+
+@media (max-width: 1000px){
+    .container{
+        max-width: 870px;
+    }
+    .pay{
+    &__content-block {
+        gap: 14px;
+    }
+    }
+}
+@media (max-width: 870px){
+    .container{
+    max-width: 700px;
+       }
+   .footer{
+       &__inner{
+           display: grid;
+           gap: 30px;
+           grid-template-columns: 260px 260px;
+       }
+   }
+   .works{
+       &__content-block{
+        display: grid;
+        gap: 36px;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+       }
+    
+   }
+    .save{
+    &__content{
+        display: grid;
+        gap: 45px;
+        justify-content: center;
+    }
+  
+   }
+    .pay{
+        padding-top: 85px;
+    &__content-block {
+        gap: 3px;
+    
+   }
+    &__content-block-img{
+        width: 98%;
+        top: 78px;
+        position: relative;
+
+    }
+}
+}
+   @media (max-width: 700px){
+       .container{
+           max-width: 560px;
+       }
+       .works{
+       &__content {
+       h1 {
+        font-size: 50px;
+       }
+    }
+    }
+       .top{
+        &__info{
+            width: 417px;
+            height: 518px;
+        }
+        &__button{
+            position: relative;
+            top: 36px;
+        }
+        }
+        .pay{
+        &__content-block-img {
+            width: 112%;
+    
+       }
+    }
+    .fast{
+        &__content
+         h1 {
+            font-size: 50px;
+       }
+       &__block-content{
+            width: 450px;
+       }
+       &__block-text{
+        width: 450px;
+
+       }
+    }
+       .designed {
+       &__content {
+        h1 {
+        font-size: 50px;
+        } 
+       }
+    }
+       .more{
+        &__content{
+            gap: 247px;
+
+            h1{
+                font-size: 50px;
+            }
+        }
+       }
+}
+
+     
+   
+     
+   
+   @media (max-width: 580px){
+   .container{
+       max-width: 400px ;
+   }
+   .footer{
+       &__inner{
+           display: grid;
+           gap: 30px;
+           grid-template-columns: none;
+       }
+   }
+   .top{
+    &__info{
+        width: 335px;
+        height: 491px;
+
+        h1{
+            font-size: 32px;
+        }
+
+        p{
+            font-size: 23px;
+        }
+    }
+    &__button{
+    top: 83px;
+    }
+   }
+   .tally{
+    &__content{
+        grid-template-columns: none;
+        justify-content: center;
+    }
+}
+   .fast{
+   &__block-content {
+    width: 380px;
+   }
+   &__block-text {
+    width: 380px;
+    height: 141px;
+}
+   }
+   .designed{
+    &__content {
+    gap: 87px;
+    }
+}
+   .save{
+    &__content-block{
+        gap: 20px;
+    }
+}
+   .pay{
+   &__content-block-img {
+    display: none;
+}
+}
+   }
+@media (max-width: 460px){
+   
+    .container{
+        max-width: 300px;
+    }
+    .top{
+    &__info {
+        width: 279px;
+        height: 526px;
+    }
+}
+    .save{
+    &__content-1 {
+        width: 200px;
+}
+    &__content{
+        justify-content: normal;
+}
+   &__content-2 {
+    width: 296px;
+   }
+    &__content-2-img{
+        width: 75%;
+
+        h1{
+            left: 154px;
+        }
+    }
+    &__content-2-block {
+        width: 279px;
+        flex-direction: column;
+        height: 145px;
+    }
+    &__content-3-block {    
+    h1 {
+        width: 277px;
+}
+    }
+}
+    .pay{
+    &__content-tittle {
+    font-size: 30px;
+    max-width: 250px;
+}
+    &__content-block-info{
+    h1,p, button {
+    font-size: 15px;
+    max-width: 252px;
+    }
+}
+   &__content-text{
+    max-width: 250px;
+   }
+   &__content-text2{
+    max-width: 250px;
+   }
+}
+   .fast{
+    &__content {
+    h1 {
+    font-size: 30px;
+}
+   }
+   &__block-content {
+    width: 250px;
+    font-size: 15px ;
+}
+   &__block-text {
+    width: 250px;
+    font-size: 15px;
+    padding: 25px 40px;
+}
+}
+   .designed{
+    &__content{
+         h1 {
+    font-size: 30px;
+         }
+        }
+    &__content-block{
+     grid-template-columns: none;
+    }
+}
+}
